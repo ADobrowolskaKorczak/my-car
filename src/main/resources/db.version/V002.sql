@@ -3,7 +3,7 @@
 
 CREATE TABLE role (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(255) NOT NULL,
+    name VARCHAR(250) NOT NULL
 );
 
 CREATE TABLE user_role (
