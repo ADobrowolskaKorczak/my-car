@@ -1,11 +1,13 @@
 package com.example.my_car.model;
 
 import jakarta.persistence.*;
+import lombok.Builder;
 import lombok.Getter;
 
 @Entity
 @Table(name = "role")
 @Getter
+@Builder
 public class Role {
 
     @Id
