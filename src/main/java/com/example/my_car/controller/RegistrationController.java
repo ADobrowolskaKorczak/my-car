@@ -17,9 +17,9 @@ import javax.management.InstanceAlreadyExistsException;
 @RequestMapping("/api/registration")
 public class RegistrationController {
 
-        private final RegistrationService registrationService;
+    private final RegistrationService registrationService;
 
-        @Autowired
+    @Autowired
     public RegistrationController(RegistrationService registrationService) {
         this.registrationService = registrationService;
     }

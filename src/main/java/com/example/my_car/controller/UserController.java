@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
 
     @GetMapping("/welcome")
-    public String welcom() {
+    public String welcome() {
         return "WELCOME";
     }
 
